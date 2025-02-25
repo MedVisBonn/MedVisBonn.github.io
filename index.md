@@ -1,5 +1,6 @@
 ---
-permalink: /about/
+layout: home
+permalink: /
 title: "About"
 classes: wide
 toc: true
