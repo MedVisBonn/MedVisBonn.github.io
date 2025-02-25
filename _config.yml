@@ -90,11 +90,10 @@ defaults:
   #    related: true
   # _pages
   - scope:
-      path: "_pages"
-      type: pages
+      path: "_pages/about.md"
     values:
       layout: single
-      author_profile: true
+      author_profile: false
 
 #category_archive:
 #  type: liquid
