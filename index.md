@@ -1,5 +1,7 @@
-# SICS-155 Challenge Dataset
-Welcome to the dataset page for the MICCAI 2025
+Welcome to the SICS-155 dataset webpage for the MICCAI 2025!
+
+![phases](assets/SICS_phases.png)
+
 
 ## Dataset Overview
 - **Name**: Small Incision Cataract Surgery Video Collection
