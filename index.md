@@ -1,6 +1,6 @@
 Welcome to the SICS-155 dataset webpage for the MICCAI 2025!
 
-![phases](assets/SICS_phases.png)
+![phases](/assets/SICS_phases.png)
 
 
 ## Dataset Overview
