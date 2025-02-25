@@ -95,7 +95,7 @@ defaults:
   #  values:
   #    layout: single
   #    author_profile: false
-permanentlink: /about/
+
 #category_archive:
 #  type: liquid
 #  path: /categories/
