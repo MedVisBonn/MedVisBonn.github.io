@@ -1,7 +1,5 @@
 ---
-permalink: /about/
 title: "About"
-# classes: wide
 toc: true
 toc_label: "My Table of Contents"
 toc_icon: "cog"
