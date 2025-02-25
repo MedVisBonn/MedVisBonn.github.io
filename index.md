@@ -1,6 +1,6 @@
 Welcome to the SICS-155 dataset webpage for the MICCAI 2025!
 
-![phases](/assets/SICS_phases.png)
+![phases](assets/images/SICS_phases.png)
 
 
 ## Dataset Overview
@@ -9,6 +9,8 @@ Welcome to the SICS-155 dataset webpage for the MICCAI 2025!
 - **Description**: A short description of the dataset.
 - **Size**: 155 videos
 - **Download**: [Link to dataset]
+
+# Research team
 
 ## Dataset Description
 Explain how participants can use the dataset.
