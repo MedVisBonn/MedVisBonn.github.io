@@ -6,6 +6,7 @@ Welcome to the SICS-155 dataset webpage for the MICCAI 2025!
 - **Short name**: SICS-155
 - **Description**: A short description of the dataset.
 - **Size**: 155 videos
+- **Splits**: 100 videos (train), 15 videos (validation), 40 videos (test)
 - **Download**: [Link to dataset]
 
 ## Challenge timeline
@@ -53,6 +54,14 @@ achieved (lower than in the original videos to speed-up processing).
 
 ## Evaluation approach
 
+For each submitted algorithm we will calculate the following metrics:
+- Accuracy (frame-wise)
+- Edit distance [also known as Levenshtein Distance] (phase-wise)
+- F1-score (frame-wise)
+- Precision-Recall area under curve (PR AUC)
+
+Afterwards well calculate a point-based significance ranking to establish the challenge winner, using the approach outlind in the recommed best practices by Maier-Hein et al [1]. 
+
 ## Organizers
 
 **Research team**:
@@ -68,6 +77,9 @@ Maximilian Wintergerst, University Eye Clinic Bonn, Augenzentrum Grischun Chur (
 Simon Mueller
 M.Sc., B.Med., PhD candidate
 University Hospital Bonn | Dept. of Ophthalmology
-Mail: s.mueller1995@gmail.com
 
 ## References
+
+1. Maier-Hein, L., Eisenmann, M., Reinke, A. et al. Why rankings of biomedical image analysis competitions should
+be interpreted with care. Nat Commun 9, 5217 (2018).
+https://doi-org.mu.idm.oclc.org/10.1038/s41467-018-07619-7
