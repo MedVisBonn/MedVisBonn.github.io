@@ -1,3 +1,7 @@
+---
+title: SICS-155 Challenge
+toc: true
+---
 Welcome to the SICS-155 dataset webpage for the MICCAI 2025!
 ![phases](assets/images/SICS_phases.png)
 

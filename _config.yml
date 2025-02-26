@@ -4,3 +4,4 @@ title: SICS-155 Website
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-toc
