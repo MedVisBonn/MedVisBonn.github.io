@@ -21,7 +21,9 @@ Welcome to the SICS-155 dataset webpage for the MICCAI 2025!
 | 01.09.2025 - 23.09.2025 | Final ranking of the results on unseen testing data. |
 
 ## Dataset Description
-Explain how participants can use the dataset.
+The data cotains 155 Color video recordings of the operating microscope with a resolution of 960 x 540 pixels and a framerate of 30 FPS displaying small-incision cataract surgeries. Surgery durations range from 5:01 to 21:58 minutes, and the average video length is 13:05 minutes. 
+
+**Ground truth**: The groundTruth is provided in two formats, tabluar and text files providing frame-by-frame phase annotations. In the the excle file, start and end-times of each observable phase in a video are defined.
 
 ## SICS Phases
 The algorithm should target the prediction of surgical phases in the provided videos. For each frame in the
