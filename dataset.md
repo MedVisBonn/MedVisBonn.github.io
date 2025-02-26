@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Download SICS-155
+title: Download
 permalink: /download/
 ---
 Soon you will be able to download our dataset here.

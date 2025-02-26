@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Registration for challenge
+title: Challenge Registration
 permalink: /registration/
 ---
 
