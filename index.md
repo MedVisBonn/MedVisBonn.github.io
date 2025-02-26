@@ -10,7 +10,7 @@ Welcome to the SICS-155 dataset webpage for the MICCAI 2025!
 
 ## Challenge timeline
 | Date     | Description                |
-| -------- | -------------------------- |
+| :-------- | :-------------------------- |
 | 01.04.2025 | (Pre)-Registration opens for Task 1 and challenge website opens. |
 | 10.04.2025 | Estimated release of training data. | 
 | 01.06.2025 | Estimated release of validation data. |
