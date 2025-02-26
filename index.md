@@ -66,12 +66,12 @@ Afterwards well calculate a point-based significance ranking to establish the ch
 ## Organizers
 
 **Research team**:
-Bhuvan Sachdeva, Microsoft Research India
-Kaushik Murali, Sankara Eye Hospital Bangalore
-Simon Mueller, University Bonn, University Eye Clinic Bonn
-Singri Niharika Prasad, Sankara Eye Hospital Bangalore
-Thomas Schultz, University Bonn, Lamarr Institute for Machine Learning and Artificial Intelligence
-Yanwu Xu, South China University of Technology (Liaison OMIA Workshop)
+Bhuvan Sachdeva, Microsoft Research India\
+Kaushik Murali, Sankara Eye Hospital Bangalore\
+Simon Mueller, University Bonn, University Eye Clinic Bonn\
+Singri Niharika Prasad, Sankara Eye Hospital Bangalore\
+Thomas Schultz, University Bonn, Lamarr Institute for Machine Learning and Artificial Intelligence\
+Yanwu Xu, South China University of Technology (Liaison OMIA Workshop)\
 Maximilian Wintergerst, University Eye Clinic Bonn, Augenzentrum Grischun Chur (PI)
 
 **Primary contact person**:
