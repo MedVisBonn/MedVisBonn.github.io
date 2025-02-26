@@ -9,6 +9,7 @@ Welcome to the SICS-155 dataset webpage for the MICCAI 2025!
 - **Download**: [Link to dataset]
 
 ## Challenge timeline
+
 | Date     | Description                |
 | :-------- | :-------------------------- |
 | 01.04.2025 | (Pre)-Registration opens for Task 1 and challenge website opens. |
