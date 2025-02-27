@@ -12,8 +12,6 @@ Welcome to the Phase Recognition in Small Incision Cataract Surgery Videos (SICS
 - **Splits**: 100 videos (train), 15 videos (validation), 40 videos (test)
 - **Download**: [Link to dataset]
 
-![phases](assets/images/SICS_phases.png)
-
 ## Challenge timeline
 
 | Date     | Description                |
@@ -37,6 +35,8 @@ The algorithm should target the prediction of surgical phases in the provided vi
 recordings, 1 of the 18 phases of SICS should be assigned by the algorithm. When no phase can be recognized in a
 frame, a "background" phase can be assigned. A target frame rate of 15 frames per second (FPS) should be
 achieved (lower than in the original videos to speed-up processing).
+
+![phases](assets/images/SICS_phases.png)
 
 - peritomy: Conjunctiva is dissected to expose the sclera.
 - cautery: Diathermy is applied to coagulate episcleral vessels.
