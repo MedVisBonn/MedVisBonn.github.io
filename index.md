@@ -1,3 +1,9 @@
+---
+layout: post
+title: "SICS-155 Challenge"
+toc: true
+---
+
 Welcome to the SICS-155 dataset webpage for the MICCAI 2025! Here you can find some general information regarding our challenge, and later on donwload links for the data and source code show-casing the evaluation procedure.
 
 ## Dataset Overview
