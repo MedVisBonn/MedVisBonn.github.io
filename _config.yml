@@ -1,6 +1,18 @@
 theme: minima
 title: SICS-155 Challenge
 
+header_pages:
+  - abstract.md
+  - dataset.md
+  - registration.md
+
+author:
+  name: Simon Mueller
+  email: "nope@crawlers.de"
+
+minima:
+  skin: auto
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
