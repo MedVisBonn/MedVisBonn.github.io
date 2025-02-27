@@ -4,4 +4,4 @@ title: Challenge Registration
 permalink: /registration/
 ---
 
-You will find here a link for the pre-registration for our challenge!
+Following the timeline outlined in [Challenge Description](index.md), you will be able to regsiter for our challenge here. 

@@ -3,4 +3,4 @@ layout: page
 title: Download
 permalink: /download/
 ---
-Soon you will be able to download our dataset here.
+Following the timeline outlined in [Challenge Description](index.md), you will find the download link for our dataset here. 
