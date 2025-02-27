@@ -1,8 +1,8 @@
 ---
-title: "SICS-155 Challenge"
+title: "SICS-155"
 ---
 
-Welcome to the Phase Recognition in Small Incision Cataract Surgery Videos (SICS-155) dataset webpage for the MICCAI 2025! Here you can find some general information regarding our challenge, and later on donwload links for the data and source code show-casing the evaluation procedure.
+Welcome to the **Phase Recognition in Small Incision Cataract Surgery Videos (SICS-155)** dataset webpage for the MICCAI 2025! Here you can find some general information regarding our challenge, and later on donwload links for the data and source code show-casing the evaluation procedure.
 
 ## Dataset Overview
 - **Name**: Small Incision Cataract Surgery Video Collection
@@ -60,16 +60,16 @@ achieved (lower than in the original videos to speed-up processing).
 ## Evaluation approach
 
 For each submitted algorithm we will calculate the following metrics:
-- Accuracy (frame-wise)
-- Edit distance [also known as Levenshtein Distance] (phase-wise)
-- F1-score (frame-wise)
-- Precision-Recall area under curve (PR AUC)
+1. Accuracy (frame-wise)
+2. Edit distance [also known as Levenshtein Distance] (phase-wise)
+3. F1-score (frame-wise)
+4. Precision-Recall area under curve (PR AUC)
 
 Afterwards well calculate a point-based significance ranking to establish the challenge winner, using the approach outlind in the recommed best practices by Maier-Hein et al [1]. 
 
 ## Organizers
 
-**Research team**:
+**Research team**:\
 Bhuvan Sachdeva, Microsoft Research India\
 Kaushik Murali, Sankara Eye Hospital Bangalore\
 Simon Mueller, University Bonn, University Eye Clinic Bonn\
@@ -78,7 +78,7 @@ Thomas Schultz, University Bonn, Lamarr Institute for Machine Learning and Artif
 Yanwu Xu, South China University of Technology (Liaison OMIA Workshop)\
 Maximilian Wintergerst, University Eye Clinic Bonn, Augenzentrum Grischun Chur (PI)
 
-**Primary contact person**:
+**Primary contact person**:\
 Simon Mueller\
 M.Sc., B.Med., PhD candidate\
 University Hospital Bonn | Dept. of Ophthalmology
