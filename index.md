@@ -2,7 +2,7 @@
 title: "SICS-155 Challenge"
 ---
 
-Welcome to the SICS-155 dataset webpage for the MICCAI 2025! Here you can find some general information regarding our challenge, and later on donwload links for the data and source code show-casing the evaluation procedure.
+Welcome to the Phase Recognition in Small Incision Cataract Surgery Videos (SICS-155) dataset webpage for the MICCAI 2025! Here you can find some general information regarding our challenge, and later on donwload links for the data and source code show-casing the evaluation procedure.
 
 ## Dataset Overview
 - **Name**: Small Incision Cataract Surgery Video Collection
