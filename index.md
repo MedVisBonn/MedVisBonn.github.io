@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "SICS-155 Challenge"
 toc: true
 ---
