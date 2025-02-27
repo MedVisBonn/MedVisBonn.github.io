@@ -79,8 +79,8 @@ Yanwu Xu, South China University of Technology (Liaison OMIA Workshop)\
 Maximilian Wintergerst, University Eye Clinic Bonn, Augenzentrum Grischun Chur (PI)
 
 **Primary contact person**:
-Simon Mueller
-M.Sc., B.Med., PhD candidate
+Simon Mueller\
+M.Sc., B.Med., PhD candidate\
 University Hospital Bonn | Dept. of Ophthalmology
 
 ## References
