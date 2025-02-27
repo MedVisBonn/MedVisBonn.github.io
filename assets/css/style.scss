@@ -5,3 +5,11 @@
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
+
+
+  #my_toc {
+    float: right;
+    margin: 20px;
+    padding: 20px;
+    background: #eee;
+}
