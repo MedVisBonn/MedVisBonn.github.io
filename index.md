@@ -2,7 +2,7 @@
 title: "SICS-155"
 ---
 
-Welcome to the **Phase Recognition in Small Incision Cataract Surgery Videos (SICS-155)** challenge, a Satellite Event of the [MICCAI 2025 conference](https://conferences.miccai.org/2025/en/default.asp) in Daejeon, Republic of Korea! Here you can find some general information regarding our challenge, and later on download links for the data and source code show-casing the evaluation procedure.
+Welcome to the **Phase Recognition in Small Incision Cataract Surgery Videos (SICS-155)** challenge, a Satellite Event of the [MICCAI 2025 conference](https://conferences.miccai.org/2025/en/default.asp) in Daejeon, Republic of Korea! Here you can find some general information regarding our challenge, and later on download links for the data and source code show-casing the evaluation procedure. Please direct all questions regarding the challenge to [mail-link](mailto:ag.wintergerst@gmail.com).
 
 ## Challenge abstract
 
@@ -30,7 +30,7 @@ Despite SICS widespread adoption in countries of the global south, no publicly a
 
 | Date     | Description                |
 | :-------- | :-------------------------- |
-| 01.04.2025 | (Pre)-Registration opens for Task 1 and challenge website opens. |
+| 01.04.2025 | (Pre)-Registration opens for our Task opens. |
 | 10.04.2025 | Estimated release of training data. | 
 | 01.05.2025 | Estimated release of validation data. |
 | 01.07.2025 | Opening of the submission system for algorithms. |
