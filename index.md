@@ -2,7 +2,21 @@
 title: "SICS-155"
 ---
 
-Welcome to the **Phase Recognition in Small Incision Cataract Surgery Videos (SICS-155)** dataset webpage for the MICCAI 2025! Here you can find some general information regarding our challenge, and later on donwload links for the data and source code show-casing the evaluation procedure.
+Welcome to the **Phase Recognition in Small Incision Cataract Surgery Videos (SICS-155)** challenge, a Satellite Event of the [MICCAI 2025 conference](https://conferences.miccai.org/2025/en/default.asp) in Daejeon, Republic of Korea! Here you can find some general information regarding our challenge, and later on download links for the data and source code show-casing the evaluation procedure.
+
+## Challenge abstract
+
+Cataract is the leading cause of blindness worldwide, most affecting life in low- and middle-income countries (LMICs). The mainly used, most appropriate, and most cost-effective cataract surgical technique for LMICs is small incision cataract surgery (SICS). While algorithms have been developed for automated video analysis of surgical performance parameters for the cataract surgical technique predominantly used in high-income settings, so far there were no datasets nor algorithms for SICS available [^1] [^2] [^3]. This MICCAI challenge introduces the first SICS video dataset and offers teams the opportunity to evaluate the effectiveness of their phase recognition algorithms. The dataset of 155 patients was recruited at Sankara Eye Hospital in India.
+
+Analysis of surgical phases is important because it allows for quantitative comparison between different surgeons, feedback on identified critical steps, and detection of discrepancies from surgical protocols and because it is the first step for automatic assessment of surgical quality (Sim-OSSCAR) [^4]. Our contribution is the first public dataset for SICS holding surgical videos and phase annotations of 155 surgeries with 18 distinct phases.
+
+Currently, there are other public cataract surgery phase datasets like Cataract-101 (n=101 videos) or the IEEE Cataracts (n=50 videos) but they only show phacoemulsification surgery which is distinct from SICS in the
+following ways: SICS involves a larger 6-8 mm incision (2-3 mm for phaco), allowing for easier maneuvering of tools. The surgical phases in SICS are distinct, with steps such as Nucleus Delivery, Nucleus Prolapse, and
+peritomy not performed in phacoemulsification, which instead includes Trenching, Nucleus Emulsification, and Irrigation/Aspiration [^5]. MSICS also utilizes specialized tools such as the Vectis, Dialer, Conjunctival Scissors,
+Simcoe Cannula, Cautery, and Crescent Blade, which are not used in phaco; conversely, phacoemulsification surgery uses tools like Phaco Probe, Irrigation/Aspiration Probe, and Lens Injector [^6]. Still there is some overlap
+between SICS and phacoemulsification and teams could consider using the mentioned datasets for transfer learning strategies.
+
+Despite SICS widespread adoption in countries of the global south, no publicly available dataset exists for for this surgery, leaving a critical gap in cataract surgery research. Competitors are expected to submit an algorithm for predicting surgical phases based on the video data we supply and a short paper describing their approach.
 
 ## Dataset Overview
 - **Name**: Small Incision Cataract Surgery Video Collection
@@ -26,9 +40,9 @@ Welcome to the **Phase Recognition in Small Incision Cataract Surgery Videos (SI
 | 01.09.2025 - 23.09.2025 | Final ranking of the results on unseen testing data. |
 
 ## Dataset Description
-The data cotains 155 Color video recordings of the operating microscope with a resolution of 960 x 540 pixels and a framerate of 30 FPS displaying small-incision cataract surgeries. Surgery durations range from 5:01 to 21:58 minutes, and the average video length is 13:05 minutes. 
+The data contains 155 color video recordings of the operating microscope with a resolution of 960 x 540 pixels and a framerate of 30 FPS displaying small-incision cataract surgeries. Surgery durations range from 5:01 to 21:58 minutes, and the average video length is 13:05 minutes. 
 
-**Ground truth**: The groundTruth is provided in two formats, tabluar and text files providing frame-by-frame phase annotations. In the the excle file, start and end-times of each observable phase in a video are defined.
+**Ground truth**: The ground truth is provided in two formats, tabular and text files providing frame-by-frame phase annotations. In the the Excel file, start and end times of each observable phase in a video are defined.
 
 ## SICS Phases
 The algorithm should target the prediction of surgical phases in the provided videos. For each frame in the
@@ -65,7 +79,7 @@ For each submitted algorithm we will calculate the following metrics:
 3. F1-score (frame-wise)
 4. Precision-Recall area under curve (PR AUC)
 
-Afterwards well calculate a point-based significance ranking to establish the challenge winner, using the approach outlind in the recommed best practices by Maier-Hein et al [1]. 
+Afterwards we will calculate a point-based significance ranking to establish the challenge winner, using the approach outlind in the recommed best practices by Maier-Hein et al [^7]. 
 
 ## Organizers
 
@@ -82,6 +96,16 @@ Maximilian Wintergerst, University Eye Clinic Bonn, Augenzentrum Grischun Chur (
 
 ## References
 
-1. Maier-Hein, L., Eisenmann, M., Reinke, A. et al. Why rankings of biomedical image analysis competitions should
-be interpreted with care. Nat Commun 9, 5217 (2018).
-https://doi-org.mu.idm.oclc.org/10.1038/s41467-018-07619-7
+[^1]: Müller S, Jain M, Sachdeva B, Shah PN, Holz FG, Finger RP, et al. Artificial Intelligence in Cataract Surgery: A Systematic Review. Translational Vision Science & Technology 13(4):20, 2024
+
+[^2]: Tabin G, Chen M, Espandar L. Cataract surgery for the developing world. Curr Opin Ophthalmol. 19(1):55-9, 2008.
+
+[^3]: Sommer, A., Taylor, H. R., Ravilla, T. D., West, S., Lietman, T. M., Keenan, J. D., Chiang, M. F., Robin, A. L., Mills, R. P., Society, f. t. C. o. t. A. O. Challenges of Ophthalmic Care in the Developing World. JAMA Ophthalmology 132:640-644, 2014.
+
+[^4]: Dean, W. H., Murray, N. L., Buchan, J. C., Golnik, K., Kim, M. J., Burton, M. J. Ophthalmic Simulated Surgical Competency Assessment Rubric for manual small-incision cataract surgery. J Cataract Refract Surg 45:1252-1257, 2019.
+
+[^5]: Martin Spencer. Phaco vs. small-incision. Ophthalmology, 113(2):353, 2006.
+
+[^6]: Maria Grammatikopoulou, Evangello Flouty, Abdolrahim Kadkhodamohammadi, Gwenole Quellec, Andre Chow, Jean Nehme, Imanol Luengo, and Danail Stoyanov. Cadis: Cataract dataset for surgical RGB-image segmentation. Medical Image Analysis 71:102053, 2021
+
+[^7]: Maier-Hein, L., Eisenmann, M., Reinke, A. et al. Why rankings of biomedical image analysis competitions should be interpreted with care. Nat Commun 9:5217, 2018.
