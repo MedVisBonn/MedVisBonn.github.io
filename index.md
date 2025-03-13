@@ -58,7 +58,7 @@ achieved (lower than in the original videos to speed-up processing).
 
 | Date     | Description                |
 | :-------- | :-------------------------- |
-| 01.04.2025 | (Pre)-Registration opens for our Task opens. |
+| 01.04.2025 | (Pre)-Registration for the SICS-155 challenge opens. |
 | 10.04.2025 | Estimated release of training data. | 
 | 01.05.2025 | Estimated release of validation data. |
 | 01.07.2025 | Opening of the submission system for algorithms. |
