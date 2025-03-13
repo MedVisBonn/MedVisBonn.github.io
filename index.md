@@ -4,6 +4,8 @@ title: "SICS-155"
 
 Welcome to the **Phase Recognition in Small Incision Cataract Surgery Videos (SICS-155)** challenge, a Satellite Event of the [MICCAI 2025 conference](https://conferences.miccai.org/2025/en/default.asp) in Daejeon, Republic of Korea! Here you can find some general information regarding our challenge, and later on download links for the data and source code show-casing the evaluation procedure. Please direct all questions regarding the challenge to [mail-link](mailto:ag.wintergerst@gmail.com).
 
+![phases](assets/images/SICS_phases.png)
+
 ## Challenge abstract
 
 Cataract is the leading cause of blindness worldwide, most affecting life in low- and middle-income countries (LMICs). The mainly used, most appropriate, and most cost-effective cataract surgical technique for LMICs is small incision cataract surgery (SICS). While algorithms have been developed for automated video analysis of surgical performance parameters for the cataract surgical technique predominantly used in high-income settings, so far there were no datasets nor algorithms for SICS available [^1] [^2] [^3]. This MICCAI challenge introduces the first SICS video dataset and offers teams the opportunity to evaluate the effectiveness of their phase recognition algorithms. The dataset of 155 patients was recruited at Sankara Eye Hospital in India.
@@ -19,39 +21,20 @@ between SICS and phacoemulsification and teams could consider using the mentione
 Despite SICS widespread adoption in countries of the global south, no publicly available dataset exists for for this surgery, leaving a critical gap in cataract surgery research. Competitors are expected to submit an algorithm for predicting surgical phases based on the video data we supply and a short paper describing their approach.
 
 ## Dataset Overview
+
 - **Name**: Small Incision Cataract Surgery Video Collection
 - **Short name**: SICS-155
-- **Description**: A short description of the dataset.
 - **Size**: 155 videos
 - **Splits**: 100 videos (train), 15 videos (validation), 40 videos (test)
-- **Download**: [Link to dataset]
-
-## Challenge timeline
-
-| Date     | Description                |
-| :-------- | :-------------------------- |
-| 01.04.2025 | (Pre)-Registration opens for our Task opens. |
-| 10.04.2025 | Estimated release of training data. | 
-| 01.05.2025 | Estimated release of validation data. |
-| 01.07.2025 | Opening of the submission system for algorithms. |
-| 15.08.2025 | Submission for algorithms closes. |
-| 22.08.2025 | Final deadline for submission of an short-paper associated with the submitted algorithm. |
-| 31.08.2025 | Contacting the authors of top-ranked algorithms to prepare slides for oral presentation at MICCAI. |
-| 01.09.2025 - 23.09.2025 | Final ranking of the results on unseen testing data. |
-
-## Dataset Description
-The data contains 155 color video recordings of the operating microscope with a resolution of 960 x 540 pixels and a framerate of 30 FPS displaying small-incision cataract surgeries. Surgery durations range from 5:01 to 21:58 minutes, and the average video length is 13:05 minutes. 
-
-**Ground truth**: The ground truth is provided in two formats, tabular and text files providing frame-by-frame phase annotations. In the the Excel file, start and end times of each observable phase in a video are defined.
+- **Download**: [Link to dataset](dataset.md)
+- **Details**: The 155 videos with a resolution of 960 x 540 pixels and a framerate of 30 FPS display small-incision cataract surgeries. Durations range from 5:01 to 21:58 minutes, and the average video length is 13:05 minutes. 
+- **Ground truth**: The ground truth is provided in two formats, tabular and text files providing frame-by-frame phase annotations. In the the Excel file, start and end times of each observable phase in a video are defined.
 
 ## SICS Phases
 The algorithm should target the prediction of surgical phases in the provided videos. For each frame in the
 recordings, 1 of the 18 phases of SICS should be assigned by the algorithm. When no phase can be recognized in a
 frame, a "background" phase can be assigned. A target frame rate of 15 frames per second (FPS) should be
 achieved (lower than in the original videos to speed-up processing).
-
-![phases](assets/images/SICS_phases.png)
-
 - peritomy: Conjunctiva is dissected to expose the sclera.
 - cautery: Diathermy is applied to coagulate episcleral vessels.
 - scleral_groove: A partial-thickness groove is made in the sclera.
@@ -70,6 +53,19 @@ achieved (lower than in the original videos to speed-up processing).
 - OVD_wash: Remaining viscoelastic is removed.
 - stromal_hydration: Incisions are hydrated for self-sealing.
 - conjunctival_cautery: Bleeding is controlled with diathermy.
+
+## Challenge timeline
+
+| Date     | Description                |
+| :-------- | :-------------------------- |
+| 01.04.2025 | (Pre)-Registration opens for our Task opens. |
+| 10.04.2025 | Estimated release of training data. | 
+| 01.05.2025 | Estimated release of validation data. |
+| 01.07.2025 | Opening of the submission system for algorithms. |
+| 15.08.2025 | Submission for algorithms closes. |
+| 22.08.2025 | Final deadline for submission of an short-paper associated with the submitted algorithm. |
+| 31.08.2025 | Contacting the authors of top-ranked algorithms to prepare slides for oral presentation at MICCAI. |
+| 01.09.2025 - 23.09.2025 | Final ranking of the results on unseen testing data. |
 
 ## Evaluation approach
 
