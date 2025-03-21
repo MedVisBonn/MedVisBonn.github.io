@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Algorithm submission
+title: Submission
 permalink: /submission/
 ---
 
