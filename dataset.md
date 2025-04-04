@@ -3,4 +3,5 @@ layout: page
 title: Download
 permalink: /download/
 ---
-Following the timeline outlined in [Challenge Description](index.md), you will find the download link for our dataset here. 
+
+You can find the download link for our SICS-155 dataset here: [Dataset](https://zenodo.org/records/15148649)
