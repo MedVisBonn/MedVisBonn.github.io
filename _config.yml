@@ -12,7 +12,7 @@ author:
   email: "ag.wintergerst@gmail.com"
 
 minima:
-  skin: light
+  skin: classic
 
 plugins:
   - jekyll-feed
