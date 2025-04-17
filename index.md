@@ -8,7 +8,7 @@ If you want to compete, first sign-up on the [Registration Page](registration.md
 ![phases](assets/images/SICS_phases.png)
 
 The challenge is sponsored by the the [Lamarr Institute for Machine Learning and Artificial Intelligence](https://lamarr-institute.org/).
-<p><img src="https://lamarr-institute.org/wp-content/uploads/lamarr-logo-2023.png" width="200" title="LAMARR" alt="LAMARR"/></p>
+<p><img src="https://lamarr-institute.org/wp-content/uploads/lamarr-logo-2023.png" width="300" title="LAMARR" alt="LAMARR"/></p>
 
 ## Challenge abstract
 
