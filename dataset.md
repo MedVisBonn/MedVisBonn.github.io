@@ -4,7 +4,7 @@ title: Download
 permalink: /download/
 ---
 ### Zenodo Link
-You can find the download link for our SICS-155 dataset here: [Dataset](https://zenodo.org/records/15148649).\
+You can find the download link for our SICS-155 dataset here: [Dataset](https://doi.org/10.5281/zenodo.15044589).\
 **Take Note**⚠️: Don't forget to [register](registration.md) before downloading the dataset.
 
 ### Details 
