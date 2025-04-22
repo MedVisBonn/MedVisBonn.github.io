@@ -4,7 +4,7 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-    <p style="display:inline-block;"><img src="/assets/images/AI_SICS_logo_small.png" width="50" title="logo-sics" alt="logo-sics"/>
+    <p style="display:inline-block; margin-bottom:0"><img src="/assets/images/AI_SICS_logo_small.png" width="50" title="logo-sics" alt="logo-sics" style="float: left"/>
     <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a></p>
     
 
