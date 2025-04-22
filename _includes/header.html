@@ -5,7 +5,7 @@
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
     <a class="site-title" rel="author" href="{{ '/' | relative_url }}">
-      <p style="display:inline-block; margin-bottom:0">
+      <p style="display:flex; margin-bottom:0; align-items:center">
         <img src="/assets/images/AI_SICS_logo_small.png" width="50" title="logo-sics" alt="logo-sics"/> 
         {{ site.title | escape }}
       </p>
