@@ -13,3 +13,10 @@ Currently only the **training** and **validation** subsets are published. After 
 The provided **ground truth** files are text (txt) files where each line corresponds to a video frame and contains the class label. You can find numeric indecies for each class-label in the mapping.txt file that is also provided. 
 
 Should you have questions regarding the dataset, feel free to reach out ([Mail](mailto:ag.wintergerst@gmail.com))!
+
+### Evaluation
+We are providing an evaluation script that calculates our required metrics on a folder of ground truth files and a folder of prediciton files. 
+**Evaluation Script**⚙️: [Github](https://github.com/MedVisBonn/SICS155_challenge)
+
+The **ground truth** and **prediction** files should be text (txt) files where each line corresponds to a video frame and contains the phase label (e.g. background). You can find numeric indecies for each class-label in the mapping.txt file that is also provided. 
+
