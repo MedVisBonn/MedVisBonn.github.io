@@ -7,8 +7,13 @@ If you want to compete, first sign-up on the [Registration Page](registration.md
 
 ![phases](assets/images/SICS_phases.png)
 
-The challenge is sponsored by the the [Lamarr Institute for Machine Learning and Artificial Intelligence](https://lamarr-institute.org/).
-<p><img src="https://lamarr-institute.org/wp-content/uploads/lamarr-logo-2023.png" width="300" title="LAMARR" alt="LAMARR"/></p>
+The challenge is sponsored by the the [Lamarr Institute for Machine Learning and Artificial Intelligence](https://lamarr-institute.org/), the Federal Ministry for Economic Cooperation and Development (BMZ), the Academic Hospital Partnership Program from the EKFS and the German Society for International Cooperation (GIZ).
+<p>
+  <img src="https://lamarr-institute.org/wp-content/uploads/lamarr-logo-2023.png" width="250" title="LAMARR" alt="LAMARR"/>
+  <img src="https://www.giz.de/static/en/images/giz-logo.gif" width="250" title="GIZ" alt="GIZ"/>
+  <img src="https://www.bmz.de/resource/image/91696/2x1/1920/960/92141f3d346b288c12ddb8bd2f54dbec/44CEB47E6F12A8927B827D226F3C76B3/logo-bmz-en.jpg" width="250" title="BMZ" alt="BMZ"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Logo-Kroener-Fresenius-Stiftung.svg/768px-Logo-Kroener-Fresenius-Stiftung.svg.png" width="250" title="EKFS" alt="EKFS"/>
+</p>
 
 ## Challenge abstract
 
