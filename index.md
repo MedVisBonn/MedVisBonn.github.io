@@ -86,6 +86,7 @@ Afterwards we will calculate a point-based significance ranking to establish the
 **Research team**:\
 Bhuvan Sachdeva, Microsoft Research India\
 Kaushik Murali, Sankara Eye Hospital Bangalore\
+Mohit Jain, Microsoft Research India\
 Simon Mueller, University Bonn, University Eye Clinic Bonn\
 Singri Niharika Prasad, Sankara Eye Hospital Bangalore\
 Thomas Schultz, University Bonn, Lamarr Institute for Machine Learning and Artificial Intelligence\
