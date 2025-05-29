@@ -7,6 +7,8 @@ permalink: /download/
 You can find the download link for our SICS-155 dataset here: [Dataset](https://doi.org/10.5281/zenodo.15044589).\
 **Take Note**⚠️: Don't forget to [register](registration.md) before downloading the dataset.
 
+**i3d features**: We can also provide you with preprocessed inflated 3D (i3d) features for the videos, please contact us if you are interested ([Mail](mailto:ag.wintergerst@gmail.com))!
+
 ### Details 
 Currently only the **training** and **validation** subsets are published. After the challenge is finished, we will also release the remaining videos in the **test** set. The 3 sets were stratified by video duration so that an similiar number of short, medium and long videos are contained in each. 
 
