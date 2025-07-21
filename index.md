@@ -7,10 +7,9 @@ If you want to compete, first sign-up on the [Registration Page](registration.md
 
 ## News 
 - 21.07. Release of aemporary file drop for docker container submissions (CodaBench links follow soon): [Submission](submission.md)
+- 20.05. 
 - 10.04. Training and validation datset were released: [Dataset Page](dataset.md)
 - 01.04. Pre-rigistration opend: [Pre-Registration](https://forms.gle/g8WoBtbHuwnBBFKF9)
-
-We recently published a paper in Scientific Reports that establishs a performance baseline on a subset of the data used for this challenge (n=105). Find out more [here](https://doi-org.mu.idm.oclc.org/10.1038/s41598-025-00303-z).
 
 ![phases](assets/images/SICS_phases.png)
 
@@ -37,6 +36,8 @@ between SICS and phacoemulsification and teams could consider using the mentione
 Despite SICS widespread adoption in countries of the global south, no publicly available dataset exists for for this surgery, leaving a critical gap in cataract surgery research. Competitors are expected to submit an algorithm for predicting surgical phases based on the video data we supply and a short paper describing their approach.
 
 The complete protocl can found here: [Protocol](https://zenodo.org/records/15087692).
+
+We recently published a paper in Scientific Reports that establishs a performance baseline on a subset of the data used for this challenge (n=105). Find out more [here](https://doi-org.mu.idm.oclc.org/10.1038/s41598-025-00303-z).
 
 ## Dataset Overview
 
