@@ -8,7 +8,7 @@ If you want to compete, first sign-up on the [Registration Page](registration.md
 ## News 
 - 21.07. Release of aemporary file drop for docker container submissions (CodaBench links follow soon): [Submission](submission.md)
 - 10.04. Training and validation datset were released: [Dataset Page](dataset.md)
-- 01.04. Pre-rigistration opend: https://doi.org/10.5281/zenodo.15044589 
+- 01.04. Pre-rigistration opend: [Pre-Registration](https://forms.gle/g8WoBtbHuwnBBFKF9)
 
 We recently published a paper in Scientific Reports that establishs a performance baseline on a subset of the data used for this challenge (n=105). Find out more [here](https://doi-org.mu.idm.oclc.org/10.1038/s41598-025-00303-z).
 
