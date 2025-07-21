@@ -5,6 +5,11 @@ title: "SICS-155"
 Welcome to the **Phase Recognition in Small Incision Cataract Surgery Videos (SICS-155)** challenge, a Satellite Event of the [MICCAI 2025 conference](https://conferences.miccai.org/2025/en/default.asp) in Daejeon, Republic of Korea! Here you can find some general information regarding our challenge, and later on download links for the data and source code show-casing the evaluation procedure. Please direct all questions regarding the challenge to our [Mail](mailto:ag.wintergerst@gmail.com).\
 If you want to compete, first sign-up on the [Registration Page](registration.md), then you can download the datset on the [Dataset Page](dataset.md) and finally submit your docker container containig your submission on the [Submission Page](submission.md). You can find the corresonding timeline [here](index.md#challenge-timeline).
 
+## News 
+- 21.07. Release of aemporary file drop for docker container submissions (CodaBench links follow soon): [Submission](submission.md)
+- 10.04. Training and validation datset were released: [Dataset Page](dataset.md)
+- 01.04. Pre-rigistration opend: https://doi.org/10.5281/zenodo.15044589 
+
 We recently published a paper in Scientific Reports that establishs a performance baseline on a subset of the data used for this challenge (n=105). Find out more [here](https://doi-org.mu.idm.oclc.org/10.1038/s41598-025-00303-z).
 
 ![phases](assets/images/SICS_phases.png)
