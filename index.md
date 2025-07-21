@@ -70,7 +70,7 @@ achieved (lower than in the original videos to speed-up processing).
 - OVD_IOL_insertion: The intraocular lens is implanted into the capsular bag.
 - OVD_wash: Remaining viscoelastic is removed.
 - stromal_hydration: Incisions are hydrated for self-sealing.
-- conjunctival_cautery: Bleeding is controlled with diathermy.
+- tunnel_suture: Bleeding is controlled with diathermy en suture.
 
 ## Challenge timeline
 
