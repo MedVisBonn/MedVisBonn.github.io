@@ -8,7 +8,7 @@ The participating teams are expected to upload a final docker container on our p
 
 
 **Codabench Link**: https://www.codabench.org/competitions/9961/ \
-**Codabench Guidebook**: [Guidebook](assets/docs/guidebook.docx) 
+**Codabench Guidebook**: [Guidebook](/assets/docs/guidebook.docx) 
 
 --- 
 
