@@ -7,7 +7,7 @@ permalink: /submission/
 The participating teams are expected to upload a final docker container on our privately hosted CodaBench Instance that can be used to evaluate their method on the test set. They can base their container on the [codalab-legacy:gpu310](https://github.com/codalab/codalab-dockers) container, that follow a certain [folder structure](https://github.com/codalab/codabench/wiki/Submission-Docker-Container-Layout). 
 
 
-**Codabench Link**: https://www.codabench.org/competitions/9961/ \
+**Codabench Link**: [CodaBench](https://www.codabench.org/competitions/9961/) \
 **Codabench Guidebook**: [Guidebook](/assets/docs/guidebook.docx) 
 
 --- 
