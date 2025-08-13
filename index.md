@@ -6,6 +6,7 @@ Welcome to the **Phase Recognition in Small Incision Cataract Surgery Videos (SI
 If you want to compete, first sign-up on the [Registration Page](registration.md), then you can download the datset on the [Dataset Page](dataset.md) and finally submit your docker container containig your submission on the [Submission Page](submission.md). You can find the corresonding timeline [here](index.md#challenge-timeline).
 
 ## News 
+- 12.08. The final **Grading Phase** of the challenge is opened: [CodaBench](https://www.codabench.org/competitions/9961/). You have two weeks to submit your trained algorithm.
 - 21.07. Release of aemporary file drop for docker container submissions (CodaBench links follow soon): [Submission](submission.md)
 - 20.05. 
 - 10.04. Training and validation datset were released: [Dataset Page](dataset.md)
@@ -82,9 +83,9 @@ achieved (lower than in the original videos to speed-up processing).
 | 01.05.2025 | Estimated release of validation data. |
 | 15.07.2025 | Opening of the submission system for algorithms. |
 | 24.08.2025 | Submission for algorithms closes. |
-| 22.08.2025 | Final deadline for submission of an short-paper associated with the submitted algorithm. |
-| 31.08.2025 | Contacting the authors of top-ranked algorithms to prepare slides for oral presentation at MICCAI. |
-| 01.09.2025 - 23.09.2025 | Final ranking of the results on unseen testing data. |
+| 28.08.2025 | Final deadline for submission of an short-paper associated with the submitted algorithm. |
+| 07.09.2025 | Contacting the authors of top-ranked algorithms to prepare slides for oral presentation at MICCAI. |
+| 10.09.2025 - 23.09.2025 | Final ranking of the results on unseen testing data. |
 
 ## Evaluation approach
 
