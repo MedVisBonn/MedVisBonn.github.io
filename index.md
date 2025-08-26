@@ -98,12 +98,12 @@ For each submitted algorithm we will calculate the following metrics:
 
 Afterwards we will calculate a point-based significance ranking to establish the challenge winner, using the approach outlind in the recommed best practices by Maier-Hein et al [^7]: 
 
-All metrics are calculated for each case and averaged across all cases in the validation or test set. We will adopt a point-based ranking method supported by statistical analysis for robustness. We choose the significance level α = 5%. For each metric m_k, k = 1, ..., o:
-1. Determine performance m of each algorithm for each test case
-2. Perform all pairwise comparisons between algorithms with the values using Wilcoxon signed rank test (with α)
-3. Determine a significance score which equals the number of algorithms performing significantly worse than the current algorithm according to the test
-4. Compute the ranking (shared ranks possible) based on the scores (1 to n) with the highest score corresponds to the best algorithm(s) (rank 1)
-The final ranking over all metrics is computed by aggregating the significance scores over all metrics by the mean
+    All metrics are calculated for each case and averaged across all cases in the validation or test set. We will adopt a point-based ranking method supported by statistical analysis for robustness. We choose the significance level α = 5%. For each metric m_k, k = 1, ..., o:
+    1. Determine performance m of each algorithm for each test case
+    2. Perform all pairwise comparisons between algorithms with the values using Wilcoxon signed rank test (with α)
+    3. Determine a significance score which equals the number of algorithms performing significantly worse than the current algorithm according to the test
+    4. Compute the ranking (shared ranks possible) based on the scores (1 to n) with the highest score corresponds to the best algorithm(s) (rank 1)
+    The final ranking over all metrics is computed by aggregating the significance scores over all metrics by the mean
 
 ## Organizers
 
