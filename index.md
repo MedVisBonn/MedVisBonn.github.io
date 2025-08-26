@@ -82,8 +82,8 @@ achieved (lower than in the original videos to speed-up processing).
 | 10.04.2025 | Estimated release of training data. | 
 | 01.05.2025 | Estimated release of validation data. |
 | 15.07.2025 | Opening of the submission system for algorithms. |
-| 24.08.2025 | Submission for algorithms closes. |
-| 28.08.2025 | Final deadline for submission of an short-paper associated with the submitted algorithm. |
+| 24.08.2025 **(extd. to 26.08)** | Submission for algorithms closes. |
+| 28.08.2025 **(extd. to 30.08)** | Final deadline for submission of an short-paper associated with the submitted algorithm. |
 | 07.09.2025 | Contacting the authors of top-ranked algorithms to prepare slides for oral presentation at MICCAI. |
 | 10.09.2025 - 23.09.2025 | Final ranking of the results on unseen testing data. |
 
