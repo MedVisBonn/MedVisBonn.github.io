@@ -6,7 +6,7 @@ Welcome to the **Phase Recognition in Small Incision Cataract Surgery Videos (SI
 If you want to compete, first sign-up on the [Registration Page](registration.md), then you can download the datset on the [Dataset Page](dataset.md) and finally submit your docker container containig your submission on the [Submission Page](submission.md). You can find the corresonding timeline [here](index.md#challenge-timeline).
 
 ## News 
-- 26.08. **Submission to CodaBench close**: Please sent your short papers to our [mail](mailto:ag.wintergerst@gmail.com) until the **30th of August** to qualify for the [final evaluation](#evaluation-approach).
+- 26.08. **Submission to CodaBench closed**: Please sent your short papers to our [mail](mailto:ag.wintergerst@gmail.com) until the **30th of August** to qualify for the [final evaluation](#evaluation-approach).
 - 12.08. The final **Grading Phase** of the challenge is opened: [CodaBench](https://www.codabench.org/competitions/9961/). You have two weeks to submit your trained algorithm.
 - 21.07. Release of aemporary file drop for docker container submissions (CodaBench links follow soon): [Submission](submission.md)
 - 20.05. 
@@ -96,7 +96,14 @@ For each submitted algorithm we will calculate the following metrics:
 3. F1-score (frame-wise)
 4. Precision-Recall area under curve (PR AUC)
 
-Afterwards we will calculate a point-based significance ranking to establish the challenge winner, using the approach outlind in the recommed best practices by Maier-Hein et al [^7]. 
+Afterwards we will calculate a point-based significance ranking to establish the challenge winner, using the approach outlind in the recommed best practices by Maier-Hein et al [^7]: 
+
+All metrics are calculated for each case and averaged across all cases in the validation or test set. We will adopt a point-based ranking method supported by statistical analysis for robustness. We choose the significance level α = 5%. For each metric m_k, k = 1, ..., o:
+1. Determine performance m of each algorithm for each test case
+2. Perform all pairwise comparisons between algorithms with the values using Wilcoxon signed rank test (with α)
+3. Determine a significance score which equals the number of algorithms performing significantly worse than the current algorithm according to the test
+4. Compute the ranking (shared ranks possible) based on the scores (1 to n) with the highest score corresponds to the best algorithm(s) (rank 1)
+The final ranking over all metrics is computed by aggregating the significance scores over all metrics by the mean
 
 ## Organizers
 
