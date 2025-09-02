@@ -6,6 +6,7 @@ Welcome to the **Phase Recognition in Small Incision Cataract Surgery Videos (SI
 If you want to compete, first sign-up on the [Registration Page](registration.md), then you can download the datset on the [Dataset Page](dataset.md) and finally submit your docker container containig your submission on the [Submission Page](submission.md). You can find the corresonding timeline [here](index.md#challenge-timeline).
 
 ## News 
+- 31.08 **Annoucenment of the Final Rankings**: read more in the [ranking section](#ranking)
 - 26.08. **Submission to CodaBench closed**: Please sent your short papers to our [mail](mailto:ag.wintergerst@gmail.com) until the **30th of August** to qualify for the [final evaluation](#evaluation-approach).
 - 12.08. The final **Grading Phase** of the challenge is opened: [CodaBench](https://www.codabench.org/competitions/9961/). You have two weeks to submit your trained algorithm.
 - 21.07. Release of aemporary file drop for docker container submissions (CodaBench links follow soon): [Submission](submission.md)
@@ -104,6 +105,17 @@ Afterwards we will calculate a point-based significance ranking to establish the
     3. Determine a significance score which equals the number of algorithms performing significantly worse than the current algorithm according to the test
     4. Compute the ranking (shared ranks possible) based on the scores (1 to n) with the highest score corresponds to the best algorithm(s) (rank 1)
     The final ranking over all metrics is computed by aggregating the significance scores over all metrics by the mean
+
+## Ranking
+Final Rankings of best algorithms: \
+🥇 Rank 1: MIPLAB (Points: 8.0, Accuracy: 0.86, F1-score: 0.81, Edit-score: 0.89) \
+🥈 Rank 2: MILab (Points: 7.0, Accuracy: 0.82, F1-score: 0.76, Edit-score: 0.86) \
+🥈 Rank 2: Team BIT (Points: 7.0, Accuracy: 0.83, F1-score: 0.78, Edit-score: 0.83) \
+🥈 Rank 2: AtlasVision (Points: 7.0, Accuracy: 0.82, F1-score: 0.76, Edit-score: 0.85) \
+🥉 Rank 3: Fraunhofer HHI  (Score: 4.0, Accuracy: 0.75, F1-score: 0.66, Edit-score: 0.41) \
+🥉 Rank 3: Team HD (Points: 4.0, Accuracy: 0.71, F1-score: 0.62, Edit-score: 0.49) \
+4️⃣ Rank 4: Cuz-Media (Points: 2.0, Accuracy: 0.48, F1-score: 0.37, Edit-score: 0.08) \
+5️⃣ Rank 5: Team NM (Points: 1.0, Accuracy: 0.10, F1-score: 0.08, Edit-score: 0.69) \
 
 ## Organizers
 
